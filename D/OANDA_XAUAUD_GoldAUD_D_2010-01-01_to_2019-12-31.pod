@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_AUD",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_XAUAUD_GoldAUD_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_XAUAUD_GoldAUD_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2848,
+  "first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 1222.44,
+    "high": 1223.66,
+    "low": 1220.55,
+    "close": 1221.27,
+    "volume": 330
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 2164.62,
+    "high": 2176.665,
+    "low": 2159.75,
+    "close": 2162.098,
+    "volume": 20175
+  },
+  "csv_file": "OANDA_XAUAUD_GoldAUD_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2848,
+  "csv_first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 1222.44,
+    "high": 1223.66,
+    "low": 1220.55,
+    "close": 1221.27,
+    "volume": 330
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 2164.62,
+    "high": 2176.665,
+    "low": 2159.75,
+    "close": 2162.098,
+    "volume": 20175
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:20:42.000000000Z",
+  "generated_at": "2026-10-16T02:20:42.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2006-03-18T22:00:00Z",
+        "to": "2019-11-25T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-25T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
