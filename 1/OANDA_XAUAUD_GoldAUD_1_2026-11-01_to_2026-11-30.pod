@@ -6,7 +6,7 @@
   "chunk_end": "2026-11-30",
   "parquet_file": "OANDA_XAUAUD_GoldAUD_1_2026-11-01_to_2026-11-30.parquet",
   "data_file": "OANDA_XAUAUD_GoldAUD_1_2026-11-01_to_2026-11-30.parquet",
-  "row_count": 12865,
+  "row_count": 15686,
   "first_candle": {
     "time": 1793574240,
     "Time": "2026-11-01T23:04:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 51
   },
   "last_candle": {
-    "time": 1794553440,
-    "Time": "2026-11-13T07:04:00.000000000Z",
-    "open": 5739.176,
-    "high": 5740.038,
-    "low": 5733.647,
-    "close": 5734.054,
-    "volume": 459
+    "time": 1794903180,
+    "Time": "2026-11-17T08:13:00.000000000Z",
+    "open": 5743.73,
+    "high": 5744.454,
+    "low": 5741.906,
+    "close": 5743.433,
+    "volume": 387
   },
   "csv_file": "OANDA_XAUAUD_GoldAUD_1_2026-11-01_to_2026-11-30.parquet",
-  "csv_row_count": 12865,
+  "csv_row_count": 15686,
   "csv_first_candle": {
     "time": 1793574240,
     "Time": "2026-11-01T23:04:00.000000000Z",
@@ -37,26 +37,32 @@
     "volume": 51
   },
   "csv_last_candle": {
-    "time": 1794553440,
-    "Time": "2026-11-13T07:04:00.000000000Z",
-    "open": 5739.176,
-    "high": 5740.038,
-    "low": 5733.647,
-    "close": 5734.054,
-    "volume": 459
+    "time": 1794903180,
+    "Time": "2026-11-17T08:13:00.000000000Z",
+    "open": 5743.73,
+    "high": 5744.454,
+    "low": 5741.906,
+    "close": 5743.433,
+    "volume": 387
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-11-13T07:05:10.000000000Z",
-  "generated_at": "2026-11-13T07:05:10.000000000Z",
+  "verified_at": "2026-11-17T08:14:59.000000000Z",
+  "generated_at": "2026-11-17T08:14:59.000000000Z",
   "download_request": {
-    "total_api_blocks_in_run": 1,
-    "chunk_api_blocks": 1,
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
     "chunk_permanent_errors": 0,
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-11-12T07:42:00Z",
-        "to": "2026-11-13T07:05:00Z",
+        "from": "2026-11-13T06:59:00Z",
+        "to": "2026-11-16T18:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-11-16T18:19:00Z",
+        "to": "2026-11-17T08:14:00Z",
         "code": 200,
         "msg": "OK"
       }
